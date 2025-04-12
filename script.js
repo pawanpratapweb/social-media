@@ -1,6 +1,7 @@
 (function () {
     const style = document.createElement('style');
     style.textContent = `
+    *{margin:0;padding:0;box-sizing:border-box;}
         #filterMenu {
             position: fixed;
             top: 50px;
